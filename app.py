@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 # LOAD WHISPER MODEL
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 UPLOAD_FOLDER = "uploads"
 OUTPUT_FOLDER = "outputs"
